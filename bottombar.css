@@ -46,6 +46,21 @@
     background: var(--bar-color)
 }
 
+/* Discovery Page */
+.pageWrapper-1PgVDX {
+    height: calc(100% - 90px);
+}
+.pageWrapper-1PgVDX:after {
+    background: var(--bar-color)
+}
+
+/* Tabs in Home */
+.container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
+    height: calc(100% - 90px);
+}
+
+
+
 /* Positioning Fixes */
 .styleFixed-sX-yHV { /*Status Picker */
     position: relative;
