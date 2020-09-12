@@ -5,53 +5,61 @@
 /* Username */
 .panels-j1Uci_ > .container-3baos1 {
     position: relative;
-    height: 89px;
+    height: 85px;
     background: var(--bar-color)
 }
+
 /* Chatbar */
 .channelTextArea-rNsIhG {
     background: var(--bar-color)
 }
 .form-2fGMdU {
-    flex-shrink: 0;
     padding-left: 16px;
     padding-right: 16px;
-    padding-top: 22px;
+    padding-top: 20px;
+    margin-top: -10px;
+    bottom: -2px;
     background: var(--bar-color)
 }
-.form-2fGMdU::before{
+.form-2fGMdU::before {
     display: none
 }
+
 /* Serverlist */
 .wrapper-1Rf91z {
     width: 90px;
-	height: calc(100% - 90px)
+    height: calc(100% - 86px)
 }
 .wrapper-1Rf91z:after {
     position: fixed;
     content: " ";
     width: 100%;
-    height: 90px;
+    height: 86px;
     bottom: 0;
     background: var(--bar-color)
 }
+
 /* Member List */
 .members-1998pB {
-    height: calc(100% - 90px)
+    height: calc(100% - 86px)
 }
 .membersWrap-2h-GB4 {
     background: var(--bar-color)
 }
+
 /* Discovery Page */
 .pageWrapper-1PgVDX {
-    height: calc(100% - 90px)
+    height: calc(100% - 86px)
 }
 .pageWrapper-1PgVDX:after {
     background: var(--bar-color)
 }
+
 /* Tabs in Home */
-.container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
-    height: calc(100% - 90px)
+.container-1D34oG, 
+.container-3Mxszk, 
+.applicationStore-1pNvnv {
+    height: calc(100% - 86px)
 }
 
 
@@ -60,6 +68,15 @@
     position: relative;
     top: -20px
 }
-.drawerSizingWrapper-17Mss4 { /* Emote/GIF Picker */
+.animatorBottom-fS5rNO { /* Server menu popout */
+    position: relative;
+    top: 20px
+}
+.contentWrapper-SvZHNd { /* Emote/GIF Picker */
+    position: relative;
     top: -20px
+}
+.form-2fGMdU > div > .content-c_0cLD { /* Follow channel */
+    position: relative;
+    bottom: -5px
 }
