@@ -63,7 +63,7 @@
 }
 
 
-/* Positioning Fixes */
+/* Positioning Fixes/Changes */
 .styleFixed-sX-yHV { /*Status Picker */
     position: relative;
     top: -20px
@@ -79,4 +79,7 @@
 .form-2fGMdU > div > .content-c_0cLD { /* Follow channel */
     position: relative;
     bottom: -5px
+}
+.typing-2GQL18 { /* When people are typing/slowmode */
+   top: -2px;
 }
