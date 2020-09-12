@@ -1,0 +1,56 @@
+:root {
+    --bar-color: var(--background-tertiary) /* Changes the bar color. */
+}
+
+/* Username */
+.panels-j1Uci_ > .container-3baos1 {
+    position: relative;
+    height: 89px;
+    background: var(--bar-color)
+}
+
+/* Chatbar */
+.channelTextArea-rNsIhG {
+    background: var(--bar-color)
+}
+.form-2fGMdU {
+    flex-shrink: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 22px;
+    background: var(--bar-color)
+}
+.form-2fGMdU::before{
+    display: none
+}
+
+/* Serverlist */
+.wrapper-1Rf91z {
+	width: 90px;
+	height: calc(100% - 90px)
+}
+.wrapper-1Rf91z:after {
+	position: fixed;
+	content: " ";
+	width: 100%;
+	height: 90px;
+	bottom: 0;
+    background: var(--bar-color)
+}
+
+/* Member List */
+.members-1998pB {
+    height: calc(100% - 90px)
+}
+.membersWrap-2h-GB4 {
+    background: var(--bar-color)
+}
+
+/* Positioning Fixes */
+.styleFixed-sX-yHV { /*Status Picker */
+    position: relative;
+    top: -20px
+}
+.drawerSizingWrapper-17Mss4 { /* Emote/GIF Picker */
+    top: -20px
+}
