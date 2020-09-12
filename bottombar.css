@@ -8,7 +8,6 @@
     height: 89px;
     background: var(--bar-color)
 }
-
 /* Chatbar */
 .channelTextArea-rNsIhG {
     background: var(--bar-color)
@@ -23,21 +22,19 @@
 .form-2fGMdU::before{
     display: none
 }
-
 /* Serverlist */
 .wrapper-1Rf91z {
-	width: 90px;
+    width: 90px;
 	height: calc(100% - 90px)
 }
 .wrapper-1Rf91z:after {
-	position: fixed;
-	content: " ";
-	width: 100%;
-	height: 90px;
-	bottom: 0;
+    position: fixed;
+    content: " ";
+    width: 100%;
+    height: 90px;
+    bottom: 0;
     background: var(--bar-color)
 }
-
 /* Member List */
 .members-1998pB {
     height: calc(100% - 90px)
@@ -45,20 +42,17 @@
 .membersWrap-2h-GB4 {
     background: var(--bar-color)
 }
-
 /* Discovery Page */
 .pageWrapper-1PgVDX {
-    height: calc(100% - 90px);
+    height: calc(100% - 90px)
 }
 .pageWrapper-1PgVDX:after {
     background: var(--bar-color)
 }
-
 /* Tabs in Home */
 .container-1D34oG, .container-3Mxszk, .applicationStore-1pNvnv {
-    height: calc(100% - 90px);
+    height: calc(100% - 90px)
 }
-
 
 
 /* Positioning Fixes */
