@@ -83,3 +83,15 @@
 .typing-2GQL18 { /* When people are typing/slowmode */
    top: -2px;
 }
+.autocomplete-1vrmpx { /* Autocomplete */
+   bottom: calc(100% + 30px)
+}
+.tutorialContainer-SGrQ1h { /* Join/Create a sever */
+   position: fixed;
+   z-index: 1;
+   border-radius: 0 50px 50px 0;
+   padding-bottom: 0px;
+   padding-top: 8px;
+   bottom: 10px;
+   background: var(--background-secondary-alt) !important;
+}
