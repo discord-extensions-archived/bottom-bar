@@ -1,8 +1,10 @@
 # Bottom Bar
 A nice, simple looking, bottom bar. Inspired by CapnKitten's Spotify Discord theme.
 
-## Preview
+## Previews
 ![Preview](https://cdn.discordapp.com/attachments/738968109288914976/754151389784965170/unknown.png)
+![Preview2](https://cdn.discordapp.com/attachments/738968109288914976/754173977882263562/unknown.png)
+![Preview3](https://cdn.discordapp.com/attachments/738968109288914976/754174352181821500/unknown.png)
 
 ## Installation
 For manual installation, go to  **your themes folder, open a command prompt / powershell / terminal / or git bash**  and enter the following:
