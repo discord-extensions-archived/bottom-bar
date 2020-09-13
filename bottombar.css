@@ -81,7 +81,7 @@
     bottom: -5px
 }
 .typing-2GQL18 { /* When people are typing/slowmode */
-   top: -2px;
+   top: -2px
 }
 .autocomplete-1vrmpx { /* Autocomplete */
    bottom: calc(100% + 30px)
@@ -94,8 +94,9 @@
    padding-bottom: 0px;
    bottom: 10px;
    background: var(--background-secondary-alt) !important;
-   transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+   transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53)
 }
 .tutorialContainer-SGrQ1h:hover {
    padding-left: 3px;
-   tran
+   transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53)
+}
