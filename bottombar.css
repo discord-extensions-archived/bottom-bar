@@ -90,8 +90,12 @@
    position: fixed;
    z-index: 1;
    border-radius: 0 50px 50px 0;
-   padding-bottom: 0px;
    padding-top: 8px;
+   padding-bottom: 0px;
    bottom: 10px;
    background: var(--background-secondary-alt) !important;
+   transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
 }
+.tutorialContainer-SGrQ1h:hover {
+   padding-left: 3px;
+   tran
