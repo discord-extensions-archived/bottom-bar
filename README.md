@@ -15,7 +15,7 @@ For quick installation, go to  **Settings -> Themes -> Quick CSS**  and copy-pas
 @import url("https://raw.githack.com/LuckFire/BottomBar/master/bottombar.css")
 
 :root {
-   --bar-color: var(--background-tertiary) !important /* Changes the bar color. */
+      --bar-color: var(--background-tertiary) !important /* Changes the bar color. */
 }
 ```
 
