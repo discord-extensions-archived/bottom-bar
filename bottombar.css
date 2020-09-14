@@ -63,7 +63,7 @@
 }
 
 
-/* Positioning Fixes/Changes */
+/* Positioning Fixes/Other Changes */
 .styleFixed-sX-yHV { /*Status Picker */
     position: relative;
     top: -20px
@@ -99,4 +99,7 @@
 .tutorialContainer-SGrQ1h:hover {
    padding-left: 3px;
    transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53)
+}
+.activityInviteEducation-8C0Czp { /* Game invite support notifier */
+   display: none;
 }
