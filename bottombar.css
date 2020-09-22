@@ -8,6 +8,10 @@
     height: 85px;
     background: var(--bar-color)
 }
+.container-3baos1 > .noWrap-3jynv6 {
+   position: relative;
+   left: 5px !important
+}
 
 /* Chatbar */
 .channelTextArea-rNsIhG {
