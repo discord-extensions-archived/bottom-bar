@@ -29,6 +29,17 @@
     display: none;
 }
 
+/* Follow Channel */
+.form-2fGMdU > .wrapper-39oAo3 {
+    padding-top: 8px;
+}
+.form-2fGMdU > .wrapper-39oAo3 > .content-c_0cLD {
+    padding-top: 25px;
+}
+.form-2fGMdU > .wrapper-39oAo3 > .content-c_0cLD > .text-2yjo70 {
+    padding-bottom: 15px;
+}
+
 /* Serverlist */
 .wrapper-1Rf91z {
     width: 90px;
@@ -79,6 +90,7 @@
    background: var(--bar-color);
 }
 
+
 /* Positioning Fixes/Other Changes */
 .styleFixed-sX-yHV { /*Status Picker */
     position: relative;
@@ -93,11 +105,6 @@
 .contentWrapper-SvZHNd { /* Emote/GIF Picker */
     position: relative;
     top: -20px;
-}
-
-.form-2fGMdU > div > .content-c_0cLD { /* Follow channel */
-    position: relative;
-    bottom: -5px;
 }
 
 .typing-2GQL18 { /* When people are typing/slowmode */
