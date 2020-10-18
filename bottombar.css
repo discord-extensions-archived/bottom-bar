@@ -2,6 +2,7 @@
     --bar-color: var(--background-tertiary); /* Changes the bar color. */
 }
 
+
 /* Username */
 .panels-j1Uci_ > .container-3baos1 {
     position: relative;
@@ -12,6 +13,7 @@
    position: relative;
    left: 5px !important;
 }
+
 
 /* Chatbar */
 .channelTextArea-rNsIhG {
@@ -29,6 +31,7 @@
     display: none;
 }
 
+
 /* Follow Channel */
 .form-2fGMdU > .wrapper-39oAo3,
 .content-c_0cLD + .buttonContainer-3AU1Ij {
@@ -40,6 +43,7 @@
 .form-2fGMdU > .wrapper-39oAo3 > .content-c_0cLD > .text-2yjo70 {
     padding-bottom: 15px;
 }
+
 
 /* Serverlist */
 .wrapper-1Rf91z {
@@ -54,6 +58,7 @@
     bottom: 0;
     background: var(--bar-color);
 }
+
 
 /* Member List */
 .members-1998pB {
@@ -71,12 +76,14 @@
     background: var(--bar-color);
 }
 
+
 /* Tabs in Home */
 .container-1D34oG, 
 .container-3Mxszk, 
 .applicationStore-1pNvnv {
     height: calc(100% - 86px);
 }
+
 
 /* Search Scroller */
 .searchResultsWrap-3-pOjs { 
@@ -91,27 +98,37 @@
    background: var(--bar-color);
 }
 
+
 /* Join/Create a sever */
-.tutorialContainer-SGrQ1h { 
-    position: fixed;
-    z-index: 1;
-    border-radius: 0 50px 50px 0;
-    padding-top: 8px;
-    padding-bottom: 0px;
-    bottom: 10px;
-    background: var(--background-secondary-alt) !important;
-    transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
- }
- .tutorialContainer-SGrQ1h:hover {
-    padding-left: 3px;
-    transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
- }
- .tutorialContainer-SGrQ1h > div > .listItemWrapper-3X98Pc > div > svg > foreignObject > .circleIconButton-jET_ig {
-    border-radius: 25px;
- }
- .tutorialContainer-SGrQ1h > div > .pill-3YxEhL {
-     display: none;
- }
+.tutorialContainer-SGrQ1h,
+[aria-label="Servers"] + .listItem-2P_4kh { 
+   position: fixed;
+   z-index: 1;
+   border-radius: 0 50px 50px 0;
+   padding-top: 8px;
+   padding-bottom: 0px;
+   bottom: 10px;
+   background: var(--background-secondary-alt) !important;
+   transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+}
+[aria-label="Servers"] + .listItem-2P_4kh {
+    padding-bottom: 8px;
+    bottom: 2px;
+}
+.tutorialContainer-SGrQ1h:hover,
+[aria-label="Servers"] + .listItem-2P_4kh:hover {
+   padding-left: 3px;
+   transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+}
+.tutorialContainer-SGrQ1h > div > .listItemWrapper-3X98Pc > div > svg > foreignObject > .circleIconButton-jET_ig,
+[aria-label="Servers"] + .listItem-2P_4kh > .listItemWrapper-3X98Pc > div > svg > foreignObject > .circleIconButton-jET_ig {
+   border-radius: 25px;
+}
+.tutorialContainer-SGrQ1h > div > .pill-3YxEhL,
+[aria-label="Servers"] + .listItem-2P_4kh > .pill-3YxEhL {
+    display: none;
+}
+
 
 /* Positioning Fixes/Other Changes */
 .styleFixed-sX-yHV { /*Status Picker */
