@@ -1,3 +1,6 @@
+//META{"name":"Bottom Bar","description":"A nice, simple looking, bottom bar.","author":"LuckFire#4800","version":"1.1.0","authorId":"399416615742996480","website":"https://github.com/LuckFire/BottomBar","source":"https://github.com/LuckFire/BottomBar/edit/master/bottombar.css"}*//{}
+
+
 :root {
     --bar-color: var(--background-tertiary); /* Changes the bar color. */
 }
