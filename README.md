@@ -10,8 +10,8 @@ For manual installation, go to  **your themes folder, open a command prompt / po
 git clone https://github.com/LuckFire/BottomBar
 ```
 
-For quick installation, go to  **Settings -> Themes -> Quick CSS**  and copy-paste the following code:
-```
+For quick installation (not recommended), go to  **Settings -> Themes -> Quick CSS**  and copy-paste the following code:
+```css
 @import url("https://raw.githack.com/LuckFire/BottomBar/master/bottombar.theme.css")
 
 :root {
