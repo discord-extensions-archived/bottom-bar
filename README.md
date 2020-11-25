@@ -12,10 +12,10 @@ git clone https://github.com/LuckFire/BottomBar
 
 For quick installation (not recommended), go to  **Settings -> Themes -> Quick CSS**  and copy-paste the following code:
 ```css
-@import url("https://raw.githack.com/LuckFire/BottomBar/master/bottombar.theme.css")
+@import url("https://raw.githack.com/LuckFire/BottomBar/master/bottombar.theme.css");
 
 :root {
-      --bar-color: var(--background-tertiary) !important /* Changes the bar color. */
+      --bar-color: var(--background-tertiary) !important; /* Changes the bar color. */
 }
 ```
 
