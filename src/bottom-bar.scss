@@ -1,5 +1,5 @@
-$primary-bar-color: var(--background-tertiary); /* Changes bar color. */
-$secondary-bar-color: var(--background-secondary-alt); /* Secondary bar color. */
+$primary-bar-color: var(--background-tertiary); /* Changes the bar color. */
+$secondary-bar-color: var(--background-secondary-alt); /* Changes misc colors. */
 
 /* Username */
 .panels-j1Uci_ .container-3baos1 {
@@ -96,7 +96,7 @@ $secondary-bar-color: var(--background-secondary-alt); /* Secondary bar color. *
 
     &::after {
         position: fixed;
-        content: " ";
+        content: "";
         width: 100%;
         height: 86px;
         bottom: 0;
@@ -126,7 +126,7 @@ $secondary-bar-color: var(--background-secondary-alt); /* Secondary bar color. *
         border-radius: 25px;
     }
 
-    .listItem-2P_4kh > .pill-3YxEhL {
+    .listItem-2P_4kh .pill-3YxEhL {
         display: none;
     }
 }
@@ -137,19 +137,15 @@ $secondary-bar-color: var(--background-secondary-alt); /* Secondary bar color. *
 
 
 /* Positioning Fixes/Other Changes */
-.styleFixed-sX-yHV { /*Status Picker */
+.styleFixed-sX-yHV, /* Status Picker */
+.contentWrapper-SvZHNd /* Emote/GIF Picker */ {
     position: relative;
     top: -20px;
 }
 
-.animatorBottom-fS5rNO { /* Server menu popout */
+.animatorBottom-fS5rNO { /* Server Menu Popout */
     position: relative;
     top: 20px;
-}
-
-.contentWrapper-SvZHNd { /* Emote/GIF Picker */
-    position: relative;
-    top: -20px;
 }
 
 .autocomplete-1vrmpx { /* Autocomplete */
