@@ -10,15 +10,6 @@ For manual installation, go to  **your themes folder, open a command prompt / po
 git clone https://github.com/LuckFire/BottomBar
 ```
 
-For quick installation (not recommended), go to  **Settings -> Themes -> Quick CSS**  and copy-paste the following code:
-```css
-@import url("https://raw.githack.com/LuckFire/BottomBar/master/bottombar.theme.css");
-
-:root {
-      --bar-color: var(--background-tertiary) !important; /* Changes the bar color. */
-}
-```
-
 ## Other Support Installation
 I have added support for Discord Revert, but I had to put it into another repository. If you're using Revert Discord and would like to use bottom bar, go to  **your themes folder, open a command prompt / powershell / terminal / or git bash**  and enter the following:
 ```
