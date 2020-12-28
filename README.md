@@ -10,7 +10,7 @@ For manual installation, go to  **Themes -> Open CMD / Powershell / Terminal / G
 git clone https://github.com/LuckFire/BottomBar
 ```
 
-Powercords updater is currently broken, so in order to update the theme you will have to do it manually. To do it manually, go to Themes -> GradientButtons-v2 -> Open CMD / Powershell / Terminal / Gitbash, and enter the following:
+Powercords updater is currently broken, so in order to update the theme you will have to do it manually. To do it manually, go to **Themes -> BottomBar -> Open CMD / Powershell / Terminal / Gitbash**, and enter the following:
 ```
 git pull
 ```
