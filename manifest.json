@@ -1,7 +1,7 @@
 {
     "name": "Bottom Bar",
     "description": "A nice, simple looking, bottom bar.",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "author": "LuckFire#4800",
     "theme": "index.scss",
     "consent": "false",

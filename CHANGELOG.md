@@ -1,3 +1,6 @@
+# v1.2.5
+More padding changes to add support for something else, this preserves my sanity.
+
 # v1.2.4
 Changed positioning of some popout modals as well as fixed user area stuff (originally was broken cause i was trying to make sure it was compatible with Revamped User Area but fuck it)
 
