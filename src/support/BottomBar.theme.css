@@ -1,6 +1,6 @@
 /**
     * @name Bottom Bar
-    * @version 1.2.4
+    * @version 1.2.5
     * @description A nice, simple looking, bottom bar.
     * @author LuckFire#4800
     *
@@ -14,20 +14,20 @@
 }
   
 #app-mount .guilds-1SWlCJ {
-    padding-bottom: 80px;
+    padding-bottom: 84px;
 }
 #app-mount .guilds-1SWlCJ::before {
     content: "";
     position: fixed;
     background-color: var(--bar-primary);
     width: 100%;
-    height: 80px;
+    height: 84px;
     bottom: 0;
 }
   
 #app-mount .panels-j1Uci_ .container-3baos1 {
     position: relative;
-    height: 79px;
+    height: 83px;
     background: var(--bar-primary);
 }
 #app-mount .panels-j1Uci_ .container-3baos1 .noWrap-3jynv6 {
@@ -37,9 +37,9 @@
   
 #app-mount .form-2fGMdU {
     background: var(--bar-primary);
-    padding: 18px 16px 0 16px;
+    padding: 20px 16px 0 16px;
     margin-bottom: 0;
-    bottom: -6px;
+    bottom: -4px;
 }
 #app-mount .form-2fGMdU::before {
     visibility: hidden;
@@ -67,17 +67,17 @@
     background: var(--bar-primary);
 }
 #app-mount .membersWrap-2h-GB4 .members-1998pB {
-    height: calc(100% - 80px);
+    height: calc(100% - 84px);
 }
   
 #app-mount .searchResultsWrap-3-pOjs {
-    height: calc(100% - 80px);
+    height: calc(100% - 84px);
 }
 #app-mount .searchResultsWrap-3-pOjs::after {
     position: fixed;
     content: "";
     width: 100%;
-    height: 80px;
+    height: 84px;
     bottom: 0;
     background: var(--bar-primary);
 }
@@ -85,14 +85,14 @@
 #app-mount .styleFixed-sX-yHV,
 #app-mount .contentWrapper-SvZHNd {
     position: relative;
-    top: -16px;
+    top: -19px;
 }
 #app-mount .animatorBottom-fS5rNO {
     position: relative;
-    top: 16px;
+    top: 19px;
 }
 #app-mount .autocomplete-1vrmpx {
-    bottom: calc(100% + 24px);
+    bottom: calc(100% + 27px);
 }
 #app-mount .channelTextAreaDisabled-8rmlrp {
     visibility: hidden;
