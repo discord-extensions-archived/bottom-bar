@@ -39,11 +39,13 @@ There are two variables that you can mess with.
 - bar-primary, which is the primary color of the bar (aka just main color basically).
 - bar-secondary, which is only used by the add server button pretty much.
 
-## Other Support Installation (currently unmaintained)
-If you're using Revert Discord and would like to use Bottom Bar, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**  and enter the following:
+# Other Support Installation (Powercord & Vizlaity Only)
+If you're using [@fluffingtons](https://github.com/fluffingtons)' [Revert Discord](https://github.com/fluffingtons/revert-discord) on Powercord or Vizality and would like to use BottomBar along side it, due to compatibility issues you'll have to install a separate version. In order to do so, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**  and enter the following:
 ```
 git clone --single-branch --branch revert-discord https://github.com/LuckFire/BottomBar
 ```
+
+I will NOT be adding support for this on BetterDiscord or Web because honestly, I'm too lazy to.
 
 ## Credits 
 Thank you to [@Hoofer](https://github.com/HooferDevelops) for helping me get the bottom area below the members list colored as well as finding multiple issues because I am super stupid.
