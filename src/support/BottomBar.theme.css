@@ -1,6 +1,6 @@
 /**
     * @name Bottom Bar
-    * @version 1.2.2
+    * @version 1.2.3
     * @description A nice, simple looking, bottom bar.
     * @author LuckFire#4800
     *
@@ -42,6 +42,10 @@
     position: absolute;
     background-color: transparent;
     bottom: 13px;
+}
+#app-mount .sidebar-2K8pFh .panels-j1Uci_ .container-3baos1 {
+    margin-left: -5px;
+    width: 235px;
 }
 
 #app-mount .form-2fGMdU {

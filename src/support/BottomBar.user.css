@@ -4,7 +4,7 @@
     @description  A nice, simple looking, bottom bar.
     @author       LuckFire#400
     @namespace    github.com/LuckFire/BottomBar
-    @version      1.2.2
+    @version      1.2.3
     ==/UserStyle== */
     :root {
         --bar-primary: var(--background-tertiary);
@@ -40,6 +40,10 @@
         position: absolute;
         background-color: transparent;
         bottom: 13px;
+    }
+    #app-mount .sidebar-2K8pFh .panels-j1Uci_ .container-3baos1 {
+        margin-left: -5px;
+        width: 235px;
     }
     
     #app-mount .form-2fGMdU {
