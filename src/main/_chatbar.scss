@@ -1,0 +1,12 @@
+#app-mount {
+    .form-2fGMdU {
+        background: var(--bar-primary);
+        padding: 18px 16px 0 16px;
+        margin-bottom: 0;
+        bottom: -6px;
+    
+        &::before {
+            visibility: hidden;
+        }
+    }
+}

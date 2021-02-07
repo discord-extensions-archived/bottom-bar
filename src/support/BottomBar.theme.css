@@ -1,0 +1,120 @@
+/**
+    * @name Bottom Bar
+    * @version 1.2.1
+    * @description A nice, simple looking, bottom bar.
+    * @author LuckFire#4800
+    *
+    * @website https://github.com/LuckFire
+    * @source https://github.com/LuckFire/BottomBar/tree/main/src
+**/
+
+:root {
+    --bar-primary: var(--background-tertiary);
+    --bar-secondary: var(--background-secondary-alt);
+}
+
+#app-mount .guilds-1SWlCJ {
+    padding-bottom: 80px;
+}
+#app-mount .guilds-1SWlCJ::before {
+    content: "";
+    position: fixed;
+    background-color: var(--bar-primary);
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+}
+#app-mount .tutorialContainer-SGrQ1h,
+#app-mount [aria-label=Servers] + .listItem-2P_4kh {
+    position: fixed;
+    z-index: 5;
+    border-radius: 0 50px 50px 0;
+    padding-top: 8px;
+    padding-bottom: 0;
+    bottom: 10px;
+    background: var(--bar-secondary);
+    transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+}
+#app-mount .tutorialContainer-SGrQ1h:hover,
+#app-mount [aria-label=Servers] + .listItem-2P_4kh:hover {
+    padding-left: 3px;
+    transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
+}
+#app-mount .tutorialContainer-SGrQ1h .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .circleIconButton-jET_ig,
+#app-mount [aria-label=Servers] + .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .circleIconButton-jET_ig {
+    border-radius: 25px;
+}
+#app-mount .tutorialContainer-SGrQ1h .listItem-2P_4kh .pill-3YxEhL,
+#app-mount [aria-label=Servers] + .listItem-2P_4kh .listItem-2P_4kh .pill-3YxEhL {
+    display: none;
+}
+#app-mount [aria-label=Servers] + .listItem-2P_4kh {
+    padding-bottom: 8px;
+    bottom: 2px;
+}
+
+#app-mount .sidebar-2K8pFh .scrollerBase-289Jih {
+    margin-bottom: 80px;
+}
+#app-mount .sidebar-2K8pFh .scrollerBase-289Jih::before {
+    content: "";
+    position: fixed;
+    z-index: 1;
+    background-color: var(--bar-primary);
+    width: 240px;
+    height: 80px;
+    bottom: 0;
+}
+#app-mount .sidebar-2K8pFh .panels-j1Uci_ {
+    z-index: 3;
+    position: absolute;
+    background-color: transparent;
+    bottom: 13px;
+}
+
+#app-mount .form-2fGMdU {
+    background: var(--bar-primary);
+    padding: 18px 16px 0 16px;
+    margin-bottom: 0;
+    bottom: -6px;
+}
+#app-mount .form-2fGMdU::before {
+    visibility: hidden;
+}
+
+#app-mount .form-2fGMdU .wrapper-39oAo3 {
+    padding-top: 8px;
+}
+#app-mount .form-2fGMdU .wrapper-39oAo3 .content-c_0cLD {
+    padding-top: 29px;
+}
+#app-mount .form-2fGMdU .wrapper-39oAo3 .content-c_0cLD .text-2yjo70 {
+    padding-bottom: 17px;
+}
+#app-mount .form-2fGMdU .wrapper-39oAo3 .content-c_0cLD + .buttonContainer-3AU1Ij {
+    padding-top: 8px;
+}
+#app-mount .container-1D34oG,
+#app-mount .container-3Mxszk,
+#app-mount .applicationStore-1pNvnv {
+    height: calc(100% - 80px);
+}
+
+#app-mount .membersWrap-2h-GB4 {
+    background: var(--bar-primary);
+}
+#app-mount .membersWrap-2h-GB4 .members-1998pB {
+    height: calc(100% - 80px);
+}
+
+#app-mount .searchResultsWrap-3-pOjs {
+    height: calc(100% - 80px);
+}
+#app-mount .searchResultsWrap-3-pOjs::after {
+    position: fixed;
+    content: "";
+    width: 100%;
+    height: 80px;
+    bottom: 0;
+    background: var(--bar-primary);
+}
