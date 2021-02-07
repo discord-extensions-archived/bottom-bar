@@ -1,29 +1,12 @@
 #app-mount {
-    .sidebar-2K8pFh {
-        .scrollerBase-289Jih {
-            margin-bottom: 80px;
-        
-            &::before {
-                content: "";
-                position: fixed;
-                z-index: 1;
-                background-color: var(--bar-primary);
-                width: 240px;
-                height: 80px;
-                bottom: 0;
-            }
-        }
-
-        // Better User Area Compat.
-        .panels-j1Uci_ {
-            z-index: 3;
-            position: absolute;
-            background-color: transparent;
-            bottom: 13px;
-
-            .container-3baos1 {
-                width: 232px;
-            }
+    .panels-j1Uci_ .container-3baos1 {
+        position: relative;
+        height: 80px;
+        background: var(--bar-primary);
+    
+        .noWrap-3jynv6 {
+            position: relative;
+            left: 5px;
         }
     }
 }

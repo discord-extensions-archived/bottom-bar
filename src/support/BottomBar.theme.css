@@ -1,6 +1,6 @@
 /**
     * @name Bottom Bar
-    * @version 1.2.3
+    * @version 1.2.4
     * @description A nice, simple looking, bottom bar.
     * @author LuckFire#4800
     *
@@ -12,7 +12,7 @@
     --bar-primary: var(--background-tertiary);
     --bar-secondary: var(--background-secondary-alt);
 }
-
+  
 #app-mount .guilds-1SWlCJ {
     padding-bottom: 80px;
 }
@@ -24,29 +24,17 @@
     height: 80px;
     bottom: 0;
 }
-
-#app-mount .sidebar-2K8pFh .scrollerBase-289Jih {
-    margin-bottom: 80px;
-}
-#app-mount .sidebar-2K8pFh .scrollerBase-289Jih::before {
-    content: "";
-    position: fixed;
-    z-index: 1;
-    background-color: var(--bar-primary);
-    width: 240px;
+  
+#app-mount .panels-j1Uci_ .container-3baos1 {
+    position: relative;
     height: 80px;
-    bottom: 0;
+    background: var(--bar-primary);
 }
-#app-mount .sidebar-2K8pFh .panels-j1Uci_ {
-    z-index: 3;
-    position: absolute;
-    background-color: transparent;
-    bottom: 13px;
+#app-mount .panels-j1Uci_ .container-3baos1 .noWrap-3jynv6 {
+    position: relative;
+    left: 5px;
 }
-#app-mount .sidebar-2K8pFh .panels-j1Uci_ .container-3baos1 {
-    width: 232px;
-}
-
+  
 #app-mount .form-2fGMdU {
     background: var(--bar-primary);
     padding: 18px 16px 0 16px;
@@ -56,7 +44,7 @@
 #app-mount .form-2fGMdU::before {
     visibility: hidden;
 }
-
+  
 #app-mount .form-2fGMdU .wrapper-39oAo3 {
     padding-top: 8px;
 }
@@ -74,14 +62,14 @@
 #app-mount .applicationStore-1pNvnv {
     height: calc(100% - 80px);
 }
-
+  
 #app-mount .membersWrap-2h-GB4 {
     background: var(--bar-primary);
 }
 #app-mount .membersWrap-2h-GB4 .members-1998pB {
     height: calc(100% - 80px);
 }
-
+  
 #app-mount .searchResultsWrap-3-pOjs {
     height: calc(100% - 80px);
 }
@@ -92,4 +80,20 @@
     height: 80px;
     bottom: 0;
     background: var(--bar-primary);
+}
+  
+#app-mount .styleFixed-sX-yHV,
+#app-mount .contentWrapper-SvZHNd {
+    position: relative;
+    top: -16px;
+}
+#app-mount .animatorBottom-fS5rNO {
+    position: relative;
+    top: 16px;
+}
+#app-mount .autocomplete-1vrmpx {
+    bottom: calc(100% + 24px);
+}
+#app-mount .channelTextAreaDisabled-8rmlrp {
+    visibility: hidden;
 }
