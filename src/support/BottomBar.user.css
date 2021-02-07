@@ -4,7 +4,7 @@
     @description  A nice, simple looking, bottom bar.
     @author       LuckFire#400
     @namespace    github.com/LuckFire/BottomBar
-    @version      1.2.1
+    @version      1.2.2
     ==/UserStyle== */
     :root {
         --bar-primary: var(--background-tertiary);
@@ -21,34 +21,6 @@
         width: 100%;
         height: 80px;
         bottom: 0;
-    }
-    #app-mount .tutorialContainer-SGrQ1h,
-    #app-mount [aria-label=Servers] + .listItem-2P_4kh {
-        position: fixed;
-        z-index: 5;
-        border-radius: 0 50px 50px 0;
-        padding-top: 8px;
-        padding-bottom: 0;
-        bottom: 10px;
-        background: var(--bar-secondary);
-        transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
-    }
-    #app-mount .tutorialContainer-SGrQ1h:hover,
-    #app-mount [aria-label=Servers] + .listItem-2P_4kh:hover {
-        padding-left: 3px;
-        transition: all 150ms cubic-bezier(0.55, 0.09, 0.68, 0.53);
-    }
-    #app-mount .tutorialContainer-SGrQ1h .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .circleIconButton-jET_ig,
-    #app-mount [aria-label=Servers] + .listItem-2P_4kh .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .circleIconButton-jET_ig {
-        border-radius: 25px;
-    }
-    #app-mount .tutorialContainer-SGrQ1h .listItem-2P_4kh .pill-3YxEhL,
-    #app-mount [aria-label=Servers] + .listItem-2P_4kh .listItem-2P_4kh .pill-3YxEhL {
-        display: none;
-    }
-    #app-mount [aria-label=Servers] + .listItem-2P_4kh {
-        padding-bottom: 8px;
-        bottom: 2px;
     }
     
     #app-mount .sidebar-2K8pFh .scrollerBase-289Jih {
