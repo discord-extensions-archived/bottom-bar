@@ -7,6 +7,7 @@
 
 # Bottom Bar
 A nice, simple looking, bottom bar. Inspired by CapnKitten's Spotify Discord theme.
+
 ![Preview](./assets/screenshot.png)
 
 # Customization
@@ -28,7 +29,7 @@ git clone https://github.com/LuckFire/BottomBar
 3. Press the "Install Style" button.
 
 # Updating for Powercord
-Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, go to **Themes -> RevampedUserArea -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
+Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, go to **Themes -> BottomBar -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
 ```
 git pull
 ```
