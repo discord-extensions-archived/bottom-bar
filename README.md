@@ -40,7 +40,7 @@ There are two variables that you can mess with.
 - bar-secondary, which is only used by the add server button pretty much.
 
 # Other Support Installation (Powercord & Vizlaity Only)
-If you're using [@fluffingtons](https://github.com/fluffingtons)' [Revert Discord](https://github.com/fluffingtons/revert-discord) on Powercord or Vizality and would like to use BottomBar along side it, due to compatibility issues you'll have to install a separate version. In order to do so, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**  and enter the following:
+If you're using [@fluffingtons'](https://github.com/fluffingtons) [Revert Discord](https://github.com/fluffingtons/revert-discord) on Powercord or Vizality and would like to use BottomBar along side it, due to compatibility issues you'll have to install a separate version. In order to do so, go to **Themes -> Open CMD / Powershell / Terminal / Gitbash**  and enter the following:
 ```
 git clone --single-branch --branch revert-discord https://github.com/LuckFire/BottomBar
 ```
