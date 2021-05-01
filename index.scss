@@ -1,1 +1,5 @@
-@import "./src/base"
+:root {
+    --bar-background-primary: var(--background-tertiary);
+}
+
+@import "./src/bar"

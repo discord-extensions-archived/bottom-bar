@@ -1,3 +1,6 @@
+# v1.3.0
+Another rework from the ground up, this one should be better this time around. For those who use [Revert Discord](https://github.com/fluffingtons/revert-discord) with this, please give me some time to add better support for that.
+
 # v1.2.5
 More padding changes to add support for something else, this preserves my sanity.
 

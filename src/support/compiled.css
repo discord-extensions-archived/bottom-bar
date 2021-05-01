@@ -1,0 +1,85 @@
+#app-mount {
+    --bar-height: 86px; /* i recommend not touching this */
+}
+#app-mount .guilds-1SWlCJ {
+    padding-bottom: var(--bar-height);
+}
+#app-mount .guilds-1SWlCJ::before {
+    content: "";
+    position: absolute;
+    background-color: var(--bar-background-primary);
+    width: 100%;
+    height: var(--bar-height);
+    bottom: 0;
+}
+#app-mount .container-3baos1 {
+    position: absolute;
+    background-color: var(--bar-background-primary);
+    bottom: 16px;
+}
+#app-mount .sidebar-2K8pFh {
+    padding-bottom: var(--bar-height);
+}
+#app-mount .sidebar-2K8pFh::before {
+    content: "";
+    position: absolute;
+    background-color: var(--bar-background-primary);
+    width: 100%;
+    height: var(--bar-height);
+    bottom: 0;
+}
+#app-mount .form-2fGMdU {
+    background: var(--bar-background-primary);
+    padding: 21px 16px 0 16px;
+    margin-bottom: 0;
+    bottom: -3px;
+}
+#app-mount .form-2fGMdU::before {
+    content: none;
+}
+#app-mount .form-2fGMdU .content-c_0cLD,
+#app-mount .form-2fGMdU .buttonContainer-3AU1Ij {
+    margin-bottom: 8px;
+}
+#app-mount .members-1998pB,
+#app-mount .searchResultsWrap-3-pOjs {
+    margin-bottom: var(--bar-height);
+}
+#app-mount .members-1998pB::after,
+#app-mount .searchResultsWrap-3-pOjs::after {
+    content: "";
+    position: fixed;
+    background-color: var(--bar-background-primary);
+    width: 100%;
+    height: var(--bar-height);
+    bottom: 0;
+}
+#app-mount .pageWrapper-1PgVDX,
+#app-mount .container-1D34oG,
+#app-mount .container-3Mxszk,
+#app-mount .applicationStore-1pNvnv {
+    padding-bottom: var(--bar-height);
+}
+#app-mount .pageWrapper-1PgVDX::before,
+#app-mount .container-1D34oG::before,
+#app-mount .container-3Mxszk::before,
+#app-mount .applicationStore-1pNvnv::before {
+    content: "";
+    position: absolute;
+    background-color: var(--bar-background-primary);
+    width: 100%;
+    height: var(--bar-height);
+    bottom: 0;
+}
+#app-mount .autocomplete-1vrmpx {
+    bottom: calc(100% + 29px);
+}
+#app-mount .positionLayer-1KzSAt.layer-v9HyYc {
+    bottom: calc(var(--bar-height) + 8px) !important;
+}
+#app-mount .wrapper-39oAo3 {
+    margin-bottom: 16px;
+}
+#app-mount .unreadMentionsIndicatorBottom-2mDYbI {
+    bottom: var(--bar-height);
+}

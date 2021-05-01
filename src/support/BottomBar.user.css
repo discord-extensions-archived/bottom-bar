@@ -3,97 +3,13 @@
     @name         Bottom Bar
     @description  A nice, simple looking, bottom bar.
     @author       LuckFire#400
-    @namespace    github.com/LuckFire/BottomBar
-    @version      1.2.5
+    @namespace    https://github.com/Discord-Theme-Addons/bottom-bar
+    @version      1.3.0
     ==/UserStyle== */
 
+    @import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
+
     :root {
-        --bar-primary: var(--background-tertiary);
-        --bar-secondary: var(--background-secondary-alt);
-    }
-      
-    #app-mount .guilds-1SWlCJ {
-        padding-bottom: 84px;
-    }
-    #app-mount .guilds-1SWlCJ::before {
-        content: "";
-        position: fixed;
-        background-color: var(--bar-primary);
-        width: 100%;
-        height: 84px;
-        bottom: 0;
-    }
-      
-    #app-mount .panels-j1Uci_ .container-3baos1 {
-        position: relative;
-        height: 83px;
-        background: var(--bar-primary);
-    }
-    #app-mount .panels-j1Uci_ .container-3baos1 .noWrap-3jynv6 {
-        position: relative;
-        left: 5px;
-    }
-      
-    #app-mount .form-2fGMdU {
-        background: var(--bar-primary);
-        padding: 20px 16px 0 16px;
-        margin-bottom: 0;
-        bottom: -4px;
-    }
-    #app-mount .form-2fGMdU::before {
-        visibility: hidden;
-    }
-      
-    #app-mount .form-2fGMdU .wrapper-39oAo3 {
-        padding-top: 8px;
-    }
-    #app-mount .form-2fGMdU .wrapper-39oAo3 .content-c_0cLD {
-        padding-top: 29px;
-    }
-    #app-mount .form-2fGMdU .wrapper-39oAo3 .content-c_0cLD .text-2yjo70 {
-        padding-bottom: 17px;
-    }
-    #app-mount .form-2fGMdU .wrapper-39oAo3 .content-c_0cLD + .buttonContainer-3AU1Ij {
-        padding-top: 8px;
-    }
-    #app-mount .container-1D34oG,
-    #app-mount .container-3Mxszk,
-    #app-mount .applicationStore-1pNvnv {
-        height: calc(100% - 84px);
-    }
-      
-    #app-mount .membersWrap-2h-GB4 {
-        background: var(--bar-primary);
-    }
-    #app-mount .membersWrap-2h-GB4 .members-1998pB {
-        height: calc(100% - 84px);
-    }
-      
-    #app-mount .searchResultsWrap-3-pOjs {
-        height: calc(100% - 84px);
-    }
-    #app-mount .searchResultsWrap-3-pOjs::after {
-        position: fixed;
-        content: "";
-        width: 100%;
-        height: 84px;
-        bottom: 0;
-        background: var(--bar-primary);
-    }
-      
-    #app-mount .styleFixed-sX-yHV,
-    #app-mount .contentWrapper-SvZHNd {
-        position: relative;
-        top: -19px;
-    }
-    #app-mount .animatorBottom-fS5rNO {
-        position: relative;
-        top: 19px;
-    }
-    #app-mount .autocomplete-1vrmpx {
-        bottom: calc(100% + 27px);
-    }
-    #app-mount .channelTextAreaDisabled-8rmlrp {
-        visibility: hidden;
+        --bar-background-primary: var(--background-tertiary);
     }
 }

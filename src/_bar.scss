@@ -1,0 +1,89 @@
+@mixin bar($position) {
+    content: "";
+    position: $position;
+    background-color: var(--bar-background-primary);
+    width: 100%;
+    height: var(--bar-height);
+    bottom: 0;
+}
+
+#app-mount {
+    --bar-height: 86px; /* i recommend not touching this */
+
+    // serverlist
+    .guilds-1SWlCJ {
+        padding-bottom: var(--bar-height);
+
+        &::before {
+            @include bar(absolute);
+        }
+    }
+
+    // userarea & sidebar
+    .container-3baos1 {
+        position: absolute;
+        background-color: var(--bar-background-primary);
+        bottom: 16px;
+    }
+    .sidebar-2K8pFh {
+        padding-bottom: var(--bar-height);
+
+        &::before {
+            @include bar(absolute);
+        }
+    }
+
+    // chatbar
+    .form-2fGMdU {
+        background: var(--bar-background-primary);
+        padding: 21px 16px 0 16px;
+        margin-bottom: 0;
+        bottom: -3px;
+
+        &::before {
+            content: none;
+        }
+
+        // follow channel
+        .content-c_0cLD,
+        .buttonContainer-3AU1Ij {
+            margin-bottom: 8px;
+        }
+    }
+
+    // memberlist & search
+    .members-1998pB,
+    .searchResultsWrap-3-pOjs {
+        margin-bottom: var(--bar-height);
+
+        &::after {
+            @include bar(fixed);
+        }
+    }
+
+    // misc pages
+    .pageWrapper-1PgVDX, // discovery
+    .container-1D34oG, // friends
+    .container-3Mxszk, // library
+    .applicationStore-1pNvnv { // nitro & store pages
+        padding-bottom: var(--bar-height);
+
+        &::before {
+            @include bar(absolute);
+        }
+    }
+
+    // fixes
+    .autocomplete-1vrmpx {
+        bottom: calc(100% + 29px);
+    }
+    .positionLayer-1KzSAt.layer-v9HyYc {
+        bottom: calc(var(--bar-height) + 8px) !important;
+    }
+    .wrapper-39oAo3 {
+        margin-bottom: 16px;
+    }
+    .unreadMentionsIndicatorBottom-2mDYbI {
+        bottom: var(--bar-height);
+    }
+}
