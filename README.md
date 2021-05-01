@@ -22,7 +22,17 @@ git clone https://github.com/Discord-Theme-Addons/bottom-bar
 3. Press the "Install Style" button.
 
 ## Revert Discord Support
-Support for Revert Discord will be coming back soon:tm:
+If you would like to use [Revert Discord](https://github.com/fluffingtons/revert-discord) with Bottom Bar, go to your Quick CSS and paste the following:
+```css
+#app-mount .form-2fGMdU {
+    border-top: none;
+    padding: 1px 16px 0 16px;
+    top: 0;
+    margin-bottom: -9px;
+    margin-left: 0;
+    width: 100%;
+}
+```
 
 # Credits 
 Thank you to everyone for their help!
