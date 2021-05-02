@@ -21,20 +21,6 @@ git clone https://github.com/Discord-Theme-Addons/bottom-bar
 2. After installing, head over to [this link](https://raw.githack.com/Discord-Theme-Addons/bottom-bar/default/src/support/BottomBar.user.css).
 3. Press the "Install Style" button.
 
-## Revert Discord Support
-If you would like to use [Revert Discord](https://github.com/fluffingtons/revert-discord) with Bottom Bar, go to your Quick CSS and paste the following:
-```css
-#app-mount .chatContent-a9vAAp .form-2fGMdU {
-    border-top: none;
-    margin: 0;
-    margin-top: -3px;
-}
-#app-mount .form-2fGMdU .channelTextArea-rNsIhG {
-    margin-top: 0;
-    margin-bottom: 24px;
-}
-```
-
 # Credits 
 Thank you to everyone for their help!
 - [@Hoofer](https://github.com/HooferDevelops) for helping me figure out how to get the bottom area below the members list to work as well as finding multiple issues.

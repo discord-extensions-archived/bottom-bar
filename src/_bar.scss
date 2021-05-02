@@ -35,11 +35,20 @@
     }
 
     // chatbar
-    .form-2fGMdU {
+    .chatContent-a9vAAp .form-2fGMdU {
         background: var(--bar-background-primary);
         padding: 21px 16px 0 16px;
         margin-bottom: 0;
         bottom: -3px;
+        
+        // revert discord support
+        margin: 0;
+        margin-top: -3px;
+        .channelTextArea-rNsIhG {
+            margin-top: 0;
+            margin-bottom: 24px;
+        }
+        // ------>
 
         &::before {
             content: none;

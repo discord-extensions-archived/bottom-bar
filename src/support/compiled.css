@@ -29,17 +29,23 @@
     height: var(--bar-height);
     bottom: 0;
 }
-#app-mount .form-2fGMdU {
+#app-mount .chatContent-a9vAAp .form-2fGMdU {
     background: var(--bar-background-primary);
     padding: 21px 16px 0 16px;
     margin-bottom: 0;
     bottom: -3px;
+    margin: 0;
+    margin-top: -3px;
 }
-#app-mount .form-2fGMdU::before {
+#app-mount .chatContent-a9vAAp .form-2fGMdU .channelTextArea-rNsIhG {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+#app-mount .chatContent-a9vAAp .form-2fGMdU::before {
     content: none;
 }
-#app-mount .form-2fGMdU .content-c_0cLD,
-#app-mount .form-2fGMdU .buttonContainer-3AU1Ij {
+#app-mount .chatContent-a9vAAp .form-2fGMdU .content-c_0cLD,
+#app-mount .chatContent-a9vAAp .form-2fGMdU .buttonContainer-3AU1Ij {
     margin-bottom: 8px;
 }
 #app-mount .members-1998pB,
