@@ -84,6 +84,9 @@
 #app-mount .unreadMentionsIndicatorBottom-2mDYbI {
     bottom: var(--bar-height);
 }
-#status-picker {
+#app-mount #status-picker {
     margin-bottom: 20px;
+}
+#app-mount .typing-2GQL18 {
+    bottom: 0;
 }
