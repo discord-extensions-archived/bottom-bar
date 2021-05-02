@@ -16,6 +16,7 @@
     position: absolute;
     background-color: var(--bar-background-primary);
     bottom: 16px;
+    max-width: 223px;
 }
 #app-mount .sidebar-2K8pFh {
     padding-bottom: var(--bar-height);
@@ -82,4 +83,7 @@
 }
 #app-mount .unreadMentionsIndicatorBottom-2mDYbI {
     bottom: var(--bar-height);
+}
+#status-picker {
+    margin-bottom: 20px;
 }

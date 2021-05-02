@@ -24,6 +24,7 @@
         position: absolute;
         background-color: var(--bar-background-primary);
         bottom: 16px;
+        max-width: 223px;
     }
     .sidebar-2K8pFh {
         padding-bottom: var(--bar-height);
@@ -85,5 +86,8 @@
     }
     .unreadMentionsIndicatorBottom-2mDYbI {
         bottom: var(--bar-height);
+    }
+    #status-picker {
+        margin-bottom: 20px;
     }
 }
