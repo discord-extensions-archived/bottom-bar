@@ -1,10 +1,10 @@
-![Banner](./assets/banner.png)
+![Banner](https://github.com/Discord-Theme-Addons/bottom-bar/blob/default/assets/banner.png)
 
 # Bottom Bar
 A nice, simple looking, bottom bar.
 - This addon was inspired from [CapnKitten's](https://github.com/CapnKitten) [Spotify Discord](https://github.com/CapnKitten/Spotify-Discord)!
 
-![Preview](./screenshots/preview.png)
+![Preview](https://github.com/Discord-Theme-Addons/bottom-bar/blob/default/assets/preview.png)
 
 ## Installation
 For **[Powercord](http://powercord.dev/)** or **[Vizality](https://vizality.com/)** installation, go to **Themes -> Open a CMD / Powershell / Terminal / Gitbash** in the folder, and enter the following:
@@ -13,7 +13,7 @@ git clone https://github.com/Discord-Theme-Addons/bottom-bar
 ```
 
 **For BetterDiscord:**
-- [Direct Download](https://github.com/Discord-Theme-Addons/bottom-bar/releases/download/1.3.0/BottomBar.theme.css)
+- [Direct Download](https://github.com/Discord-Theme-Addons/bottom-bar/releases/download/bd-release/BottomBar.theme.css)
 - [View Source](https://discord-theme-addons.github.io/bottom-bar/src/support/BottomBar.theme.css)
 
 **For Browser / Web:**

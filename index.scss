@@ -1,5 +1,7 @@
 :root {
-    --bar-background-primary: var(--background-tertiary);
+    --bar-height: 80px; // height of the bar ; default 80px
+    --bar-bottom-position: 13px; // used to center content within the bar ; default 13px
+    --bar-background-primary: var(--background-tertiary); // color of the bar ; default var(--background-tertiary)
 }
 
 @import "./src/bar"

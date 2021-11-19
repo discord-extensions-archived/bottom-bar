@@ -1,6 +1,6 @@
 /**
     * @name Bottom Bar
-    * @version 1.3.0
+    * @version 1.4.0
     * @description A nice, simple looking, bottom bar.
     * @author LuckFire#4800
     *
@@ -11,5 +11,7 @@
 @import url('https://discord-theme-addons.github.io/bottom-bar/src/support/compiled.css');
 
 :root {
+    --bar-height: 80px;
+    --bar-bottom-position: 13px;
     --bar-background-primary: var(--background-tertiary);
 }

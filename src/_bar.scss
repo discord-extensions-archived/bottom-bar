@@ -1,74 +1,75 @@
-@mixin bar($position) {
-    content: "";
-    position: $position;
-    background-color: var(--bar-background-primary);
-    width: 100%;
-    height: var(--bar-height);
-    bottom: 0;
-}
-
 #app-mount {
-    --bar-height: 86px; /* i recommend not touching this */
-
-    // serverlist
+    // guild list
     .guilds-1SWlCJ {
         padding-bottom: var(--bar-height);
-
-        &::before {
-            @include bar(absolute);
+        &::before { // i think this was here specifically for coloring
+            content: "";
+            position: absolute;
+            top: var(--bar-height);
+            bottom: 0;
+            width: 100%;
+            background-color: var(--bar-background-primary);
         }
     }
 
     // userarea & sidebar
     .container-3baos1 {
         position: absolute;
-        background-color: var(--bar-background-primary);
-        bottom: 16px;
+        bottom: var(--bar-bottom-position);
         max-width: 223px;
+        background-color: transparent;
+    }
+    #status-picker {
+        margin-bottom: calc(var(--bar-bottom-position) + 4px);
     }
     .sidebar-2K8pFh {
-        padding-bottom: var(--bar-height);
-
-        &::before {
-            @include bar(absolute);
-        }
+        height: calc(100% - var(--bar-height));
     }
 
     // chatbar
-    .chatContent-a9vAAp .form-2fGMdU {
-        background: var(--bar-background-primary);
-        padding: 21px 16px 0 16px;
-        margin-bottom: 0;
-        bottom: -3px;
-        
+    .content-yTz4x3 {
+        &::after {
+            content: "";
+            position: absolute;
+            top: calc(100% - var(--bar-height));
+            bottom: 0;
+            width: 100%;
+            background-color: var(--bar-background-primary);
+        }
+    }
+    .form-2fGMdU { 
+        z-index: 100;
+        padding-top: calc(var(--bar-bottom-position) + 5px);
+        border-radius: 5px 5px 0 0;
+        background-color: var(--bar-background-primary);
         // revert discord support
+        border-top: none;
         margin: 0;
         margin-top: -3px;
+        padding-right: 15px;
+        padding-left: 15px;
+        // end ------>
         .channelTextArea-rNsIhG {
             margin-top: 0;
             margin-bottom: 24px;
         }
-        // ------>
-
         &::before {
-            content: none;
+            display: none;
         }
-
-        // follow channel
-        .content-c_0cLD,
-        .buttonContainer-3AU1Ij {
-            margin-bottom: 8px;
+        .channelTextArea-2VhZ6z { // chat bar
+            margin-bottom: calc(var(--bar-bottom-position) + 5px);
+        }
+        .base-gE7OpD { // typing
+            bottom: -2px;
         }
     }
 
     // memberlist & search
-    .members-1998pB,
+    .container-2wlB3z {
+        height: calc(100% - var(--bar-height));
+    }
     .searchResultsWrap-3-pOjs {
         margin-bottom: var(--bar-height);
-
-        &::after {
-            @include bar(fixed);
-        }
     }
 
     // misc pages
@@ -77,15 +78,19 @@
     .container-3Mxszk, // library
     .applicationStore-1pNvnv { // nitro & store pages
         padding-bottom: var(--bar-height);
-
         &::before {
-            @include bar(absolute);
+            content: "";
+            position: absolute;
+            top: calc(100% - var(--bar-height));
+            bottom: 0;
+            width: 100%;
+            background-color: var(--bar-background-primary);
         }
     }
 
     // fixes
-    .autocomplete-1vrmpx {
-        bottom: calc(100% + 29px);
+    .autocomplete-1vrmpx { // automcplete
+        bottom: 166%;
     }
     .positionLayer-1KzSAt.layer-v9HyYc {
         bottom: calc(var(--bar-height) + 8px) !important;
@@ -93,13 +98,7 @@
     .wrapper-39oAo3 {
         margin-bottom: 16px;
     }
-    .unreadMentionsIndicatorBottom-2mDYbI {
+    .unreadMentionsIndicatorBottom-2mDYbI { // server mentions
         bottom: var(--bar-height);
-    }
-    #status-picker {
-        margin-bottom: 20px;
-    }
-    .typing-2GQL18 {
-        bottom: 0;
     }
 }

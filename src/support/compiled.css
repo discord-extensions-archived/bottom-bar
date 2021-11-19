@@ -1,65 +1,63 @@
-#app-mount {
-    --bar-height: 86px; /* i recommend not touching this */
-}
 #app-mount .guilds-1SWlCJ {
     padding-bottom: var(--bar-height);
 }
 #app-mount .guilds-1SWlCJ::before {
     content: "";
     position: absolute;
-    background-color: var(--bar-background-primary);
-    width: 100%;
-    height: var(--bar-height);
+    top: var(--bar-height);
     bottom: 0;
+    width: 100%;
+    background-color: var(--bar-background-primary);
 }
 #app-mount .container-3baos1 {
     position: absolute;
-    background-color: var(--bar-background-primary);
-    bottom: 16px;
+    bottom: var(--bar-bottom-position);
     max-width: 223px;
+    background-color: transparent;
+}
+#app-mount #status-picker {
+    margin-bottom: calc(var(--bar-bottom-position) + 4px);
 }
 #app-mount .sidebar-2K8pFh {
-    padding-bottom: var(--bar-height);
+    height: calc(100% - var(--bar-height));
 }
-#app-mount .sidebar-2K8pFh::before {
+#app-mount .content-yTz4x3::after {
     content: "";
     position: absolute;
-    background-color: var(--bar-background-primary);
-    width: 100%;
-    height: var(--bar-height);
+    top: calc(100% - var(--bar-height));
     bottom: 0;
+    width: 100%;
+    background-color: var(--bar-background-primary);
 }
-#app-mount .chatContent-a9vAAp .form-2fGMdU {
-    background: var(--bar-background-primary);
-    padding: 21px 16px 0 16px;
-    margin-bottom: 0;
-    bottom: -3px;
+#app-mount .form-2fGMdU {
+    z-index: 100;
+    padding-top: calc(var(--bar-bottom-position) + 5px);
+    border-radius: 5px 5px 0 0;
+    background-color: var(--bar-background-primary);
+    border-top: none;
     margin: 0;
     margin-top: -3px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
-#app-mount .chatContent-a9vAAp .form-2fGMdU .channelTextArea-rNsIhG {
+#app-mount .form-2fGMdU .channelTextArea-rNsIhG {
     margin-top: 0;
     margin-bottom: 24px;
 }
-#app-mount .chatContent-a9vAAp .form-2fGMdU::before {
-    content: none;
+#app-mount .form-2fGMdU::before {
+    display: none;
 }
-#app-mount .chatContent-a9vAAp .form-2fGMdU .content-c_0cLD,
-#app-mount .chatContent-a9vAAp .form-2fGMdU .buttonContainer-3AU1Ij {
-    margin-bottom: 8px;
+#app-mount .form-2fGMdU .channelTextArea-2VhZ6z {
+    margin-bottom: calc(var(--bar-bottom-position) + 5px);
 }
-#app-mount .members-1998pB,
+#app-mount .form-2fGMdU .base-gE7OpD {
+    bottom: -2px;
+}
+#app-mount .container-2wlB3z {
+    height: calc(100% - var(--bar-height));
+}
 #app-mount .searchResultsWrap-3-pOjs {
     margin-bottom: var(--bar-height);
-}
-#app-mount .members-1998pB::after,
-#app-mount .searchResultsWrap-3-pOjs::after {
-    content: "";
-    position: fixed;
-    background-color: var(--bar-background-primary);
-    width: 100%;
-    height: var(--bar-height);
-    bottom: 0;
 }
 #app-mount .pageWrapper-1PgVDX,
 #app-mount .container-1D34oG,
@@ -73,13 +71,13 @@
 #app-mount .applicationStore-1pNvnv::before {
     content: "";
     position: absolute;
-    background-color: var(--bar-background-primary);
-    width: 100%;
-    height: var(--bar-height);
+    top: calc(100% - var(--bar-height));
     bottom: 0;
+    width: 100%;
+    background-color: var(--bar-background-primary);
 }
 #app-mount .autocomplete-1vrmpx {
-    bottom: calc(100% + 29px);
+    bottom: 166%;
 }
 #app-mount .positionLayer-1KzSAt.layer-v9HyYc {
     bottom: calc(var(--bar-height) + 8px) !important;
@@ -89,10 +87,4 @@
 }
 #app-mount .unreadMentionsIndicatorBottom-2mDYbI {
     bottom: var(--bar-height);
-}
-#app-mount #status-picker {
-    margin-bottom: 20px;
-}
-#app-mount .typing-2GQL18 {
-    bottom: 0;
 }

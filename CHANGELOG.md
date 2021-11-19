@@ -1,3 +1,11 @@
+# v1.4.0
+Just a couple of changes for better customization:
+- Some (hopefully) improvements and "optimizations" to make things better.
+- More customization for the bar. You'll have to tinker with values, but the ability to do so is now there.
+    - Please note that the bar can only be so big or so small without looking weird.
+- Adjusted the default height of the bar to be thinner.
+- Updated README assets.
+
 # v1.3.0
 Another rework from the ground up, this one should be better this time around.
 
