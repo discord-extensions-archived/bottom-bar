@@ -1,6 +1,6 @@
 #app-mount {
     // guild list
-    .guilds-1SWlCJ {
+    .guilds-2JjMmN {
         padding-bottom: var(--bar-height);
         &::before { // i think this was here specifically for coloring
             content: "";
@@ -13,7 +13,7 @@
     }
 
     // userarea & sidebar
-    .container-3baos1 {
+    .container-YkUktl {
         position: absolute;
         bottom: var(--bar-bottom-position);
         max-width: 223px;
@@ -22,12 +22,12 @@
     #status-picker {
         margin-bottom: calc(var(--bar-bottom-position) + 4px);
     }
-    .sidebar-2K8pFh {
+    .sidebar-1tnWFu {
         height: calc(100% - var(--bar-height));
     }
 
     // chatbar
-    .content-yTz4x3 {
+    .content-1jQy2l {
         &::after {
             content: "";
             position: absolute;
@@ -37,7 +37,7 @@
             background-color: var(--bar-background-primary);
         }
     }
-    .form-2fGMdU { 
+    .form-3gdLxP { 
         z-index: 100;
         padding-top: calc(var(--bar-bottom-position) + 5px);
         border-radius: 5px 5px 0 0;
@@ -49,34 +49,34 @@
         padding-right: 15px;
         padding-left: 15px;
         // end ------>
-        .channelTextArea-rNsIhG {
+        .channelTextArea-1FufC0 {
             margin-top: 0;
             margin-bottom: 24px;
         }
         &::before {
             display: none;
         }
-        .channelTextArea-2VhZ6z { // chat bar
+        .channelTextArea-1VQBuV { // chat bar
             margin-bottom: calc(var(--bar-bottom-position) + 5px);
         }
-        .base-gE7OpD { // typing
+        .base-3bcbY3 { // typing
             bottom: -2px;
         }
     }
 
     // memberlist & search
-    .container-2wlB3z {
+    .container-2o3qEW {
         height: calc(100% - var(--bar-height));
     }
-    .searchResultsWrap-3-pOjs {
+    .searchResultsWrap-5RVOkx {
         margin-bottom: var(--bar-height);
     }
 
     // misc pages
-    .pageWrapper-1PgVDX, // discovery
-    .container-1D34oG, // friends
-    .container-3Mxszk, // library
-    .applicationStore-1pNvnv { // nitro & store pages
+    .pageWrapper-2PwDoS, // discovery
+    .container-2cd8Mz, // friends
+    .container-36u7Lw, // library
+    .applicationStore-2nk7Lo { // nitro & store pages
         padding-bottom: var(--bar-height);
         &::before {
             content: "";
@@ -89,16 +89,16 @@
     }
 
     // fixes
-    .autocomplete-1vrmpx { // automcplete
+    .autocomplete-3NRXG8 { // automcplete
         bottom: 166%;
     }
-    .positionLayer-1KzSAt.layer-v9HyYc {
+    .positionLayer-1cndvf.layer-2aCOJ3 {
         bottom: calc(var(--bar-height) + 8px) !important;
     }
-    .wrapper-39oAo3 {
+    .wrapper-2SplAX {
         margin-bottom: 16px;
     }
-    .unreadMentionsIndicatorBottom-2mDYbI { // server mentions
+    .unreadMentionsIndicatorBottom-3RJMnQ { // server mentions
         bottom: var(--bar-height);
     }
 }

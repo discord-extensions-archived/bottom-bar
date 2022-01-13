@@ -1,3 +1,6 @@
+# v1.5.0
+Fixed theme being broken due to class reroll.
+
 # v1.4.0
 Just a couple of changes for better customization:
 - Some (hopefully) improvements and "optimizations" to make things better.
