@@ -1,3 +1,6 @@
+# MOVED
+This addon has been moved to a snippets repository. You can find it located [here](https://github.com/discord-extensions/snippets/tree/main/bottom-bar).
+
 ![Banner](https://github.com/Discord-Theme-Addons/bottom-bar/blob/default/assets/banner.png)
 
 # Bottom Bar
